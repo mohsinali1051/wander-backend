@@ -115,7 +115,6 @@ app.post('/createBlog', async (req, res) => {
   const authID =req.body.authorID;
   const authName = req.body.authorName;
 
-
   const blog= new Blogs({
     title: ttl,
     image: img,
