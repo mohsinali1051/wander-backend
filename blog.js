@@ -89,6 +89,8 @@ app.post('/updatePassword', async (req, res) => {
   res.send(`Updated password for user ${id}`);
 });
 
+
+
 const blogPostSchema = new mongoose.Schema({
   title: String,
   image: String,
