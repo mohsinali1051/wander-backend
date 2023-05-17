@@ -175,7 +175,6 @@ app.post('/deleteBlog', async (req, res) => {
   }
 });
 
-
 // add comment to any post 
 app.post('/addComment', async (req, res) => {
   const postTtl = req.body.title;
