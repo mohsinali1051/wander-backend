@@ -139,7 +139,6 @@ app.post('/readBlog', async (req, res) => {
 });
 
 
-
 app.post('/updateBlog', async (req, res) => {
   const ttl = req.body.title;
   const newttl = req.body.newTitle;
