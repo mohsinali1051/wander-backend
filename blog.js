@@ -74,6 +74,7 @@ app.post('/updateID', async (req, res) => {
   res.send(`Updated user ID from ${id} to ${newId}`);
 });
 
+
 //update user password
 app.post('/updatePassword', async (req, res) => {
   const id = req.body.id;
