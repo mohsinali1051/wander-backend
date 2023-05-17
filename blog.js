@@ -128,7 +128,6 @@ app.post('/createBlog', async (req, res) => {
 });
 
 
-
 //read BLOGposts
 app.post('/readBlog', async (req, res) => {
  //means kis author ka blogs read krne
